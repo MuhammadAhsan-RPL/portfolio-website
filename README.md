@@ -1,2 +1,2 @@
 # portfolio-website
-Website portofolio tugas RPL berisi profil, keterampilan, dan hasil proyek. Dibuat dengan desain sederhana namun elegan untuk menampilkan karya serta perkembangan kemampuan dalam pemrograman dan desain web secara rapi dan menarik.
+This RPL portfolio website showcases your profile, skills, and project results. It features a simple yet elegant design to showcase your work and development in programming and web design in a neat and attractive way.
