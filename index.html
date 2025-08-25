@@ -6,7 +6,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio Website</title>
+  <title>Portfolio Websgit remote -v
+    ite</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,32 +15,38 @@
 <body>
   <header class="header-utama">
     <div class="container">
-      <h1 class="logo">Portfolio </h1>
+      <div class="logo-wrapper">
+        <h1 class="logo-text">Portfolio </h1>
+      </div>
+
+      <!-- Navigasi -->
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#tentang">About</a></li>
           <li class="dropdown">
-            <a href="">Projek</a>
+            <a href="#">Projek</a>
             <ul class="dropdown-menu">
               <li><a href="#projek">Latest Project</a></li>
-              <li><a href="project.html"> All Projects</a></li>
+              <li><a href="project.html">All Projects</a></li>
             </ul>
           </li>
           <li><a href="#skill">Skill</a></li>
-          <li><a href="#kontak">Contact </a></li>
-
+          <li><a href="#kontak">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
+</body>
+
+
 
   <main>
     <section id="home" class="hero-section">
       <div class="hero-text">
         <h1>Muhammad Ahsan</h1>
         <p class="posisi">Full-Stack Web Developer</p>
-        <a href="#" class="btn-cv" target="_blank" >Look My CV</a>
+        <a href="#" class="btn-cv">Download CV</a>
       </div>
       <div class="hero-image">
         <img src="gambar2.jpeg" alt="Foto Profil Budi Santoso">
@@ -151,23 +158,37 @@
   </section>
 
 
-  <section id="kontak">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <form action="#" method="post" class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <section class="contact">
+  <div class="contact-header">
+    <h2>Get In Touch</h2>
+    <p>Let’s build something amazing together 🚀</p>
+  </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+  <div class="contact-content">
+    <!-- Left: Social Links -->
+    <div class="contact-card social-card">
+      <h3>Connect With Me</h3>
+      <ul>
+        <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i> Email</a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+      </ul>
+    </div>
 
-        <label for="message">Note</label>
-        <textarea id="message" name="message" placeholder="Write your notes here" required></textarea>
-
-        <button type="submit">Submit</button>
+    <!-- Right: Message Form -->
+    <div class="contact-card form-card">
+      <h3>Send a Message</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Write your message..." required></textarea>
+        <button type="submit">Send Now</button>
       </form>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Font Awesome untuk icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -175,7 +196,7 @@
   <body>
     <header class="personal-header">
       <div class="header-left">
-        <h1><a href="#home">Portofolio </a></h1>
+        <h1><a href="#home">Portofolio Website</a></h1>
         <p>By Muhammad Ahsan Al Afghani</p>
 
 
