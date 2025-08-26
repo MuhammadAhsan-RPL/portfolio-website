@@ -31,7 +31,7 @@ body {
   padding: 0 20px;
 }
 
-/* BEDAA */
+/* untuk Header dan Navigasi */
 /* === HEADER & NAVIGASI === */
 .header-utama {
   background-color: var(--white-color);
@@ -181,7 +181,7 @@ section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* BEDAA */
+/* Untuk Section */
 /* === TENTANG SECTION === */
 #tentang {
   background-color: var(--light-gray);
@@ -383,6 +383,7 @@ h1 a:hover {
   padding: 30px 40px;
 }
 
+/* untuk Skill */
 /* === SKILL SECTION === */
 #skill {
   background-color:  #f4f4f4;
@@ -435,7 +436,7 @@ h1 a:hover {
   transition: width 1s ease;
 }
 
-/* BEDAA */
+/* untuk Kontak */
 /* === Kontak === */
 #kontak {
   background-color: #ffffff;
@@ -481,7 +482,7 @@ h1 a:hover {
   font-weight: 500;
 }
 
-/* BEDAA */
+/* untuk dropdown */
 /* Style dasar dropdown */
 .dropdown {
   position: relative;
@@ -523,7 +524,7 @@ h1 a:hover {
   display: block;
 }
 
-
+/* untuk Filter pada Buttons */
 /* FILTER BUTTONS */
 .project-filter {
   display: flex;
@@ -549,7 +550,7 @@ h1 a:hover {
   color: rgb(0, 0, 0);
 }
 
-
+/* untuk send Message */
 /* Contact Us Form Style */
 .contact-form {
   max-width: 500px;
@@ -559,46 +560,7 @@ h1 a:hover {
   gap: 15px;
 }
 
-.contact-form label {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 16px;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-.contact-form textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-.contact-form button {
-  padding: 12px;
-  background-color: #007bff;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-  background-color: #0056b3;
-}
 
 @media screen and (max-width: 768px) {
   /* Aturan untuk HP */
@@ -694,7 +656,7 @@ h1 a:hover {
   margin-bottom: 15px;
   border: none;
   border-radius: 10px;
-  background: #dad6d6;
+  background: #f1eded;
   color: #000000;
   font-size: 1rem;
 }
