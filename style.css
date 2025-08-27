@@ -102,7 +102,7 @@ section {
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--secondary-color);
 }
 
@@ -723,4 +723,10 @@ h1 a:hover {
   box-shadow: 0 5px 12px rgba(0, 123, 255, 0.25);
 }
 
-
+.section-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 3rem;   /* ini juga bikin jarak ke bawah */
+}
