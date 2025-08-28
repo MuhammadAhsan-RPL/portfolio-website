@@ -95,7 +95,7 @@
   <!-- Header Personal (Social Media) -->
   <header class="personal-header">
     <div class="header-left">
-      <h1><a href="index.html">MahsanPortfolio</a></h1>
+      <h1><a href="index.html">Mahsan Portfolio</a></h1>
       <p>By Muhammad Ahsan</p>
     </div>
     <div class="header-right social-links">
@@ -137,33 +137,3 @@
     </div>
   </footer>
 
-  <!-- Script Filter -->
-  <script>
-    function filterProjects(category) {
-      const buttons = document.querySelectorAll(".filter-button");
-      buttons.forEach(btn => btn.classList.remove("active"));
-      event.target.classList.add("active");
-
-      const cards = document.querySelectorAll(".projek-card");
-      cards.forEach(card => {
-        if (category === "all" || card.classList.contains(category)) {
-          card.style.display = "block";
-        } else {
-          card.style.display = "none";
-        }
-      });
-    }
-
-    // Tambahkan event listener ke tombol
-    document.querySelectorAll('.filter-button').forEach(button => {
-      button.addEventListener('click', function () {
-        filterProjects(this.dataset.filter);
-      });
-    });
-
-    // Set default ke 'all' saat halaman dimuat
-    window.onload = () => filterProjects('all');
-  </script>
-</body>
-
-</html>
