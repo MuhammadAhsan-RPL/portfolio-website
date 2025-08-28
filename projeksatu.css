@@ -6,7 +6,7 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #1a1a1a, #333);
+            background: linear-gradient(135deg, #5c4c4c, #886565);
             color: white;
             padding: 2rem;
             text-align: center;
@@ -33,7 +33,7 @@
 
         .btn-back {
             display: inline-block;
-            background: #007bff;
+            background:  #5c4c4c;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
@@ -42,5 +42,5 @@
         }
 
         .btn-back:hover {
-            background: #0056b3;
+            background: #616365;
         }
