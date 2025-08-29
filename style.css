@@ -731,19 +731,26 @@ h1 a:hover {
   margin: 0 auto 3rem;   /* ini juga bikin jarak ke bawah */
 }
 
+.header-utama .container {
+  display: flex;
+  justify-content: space-between; /* logo kiri, menu kanan */
+  align-items: center;
+}
+
 .logo-wrapper {
   display: flex;
   align-items: center;
   gap: 10px; /* jarak antar teks */
 }
 
+/* Logo */
 .logo-text {
   font-size: 40px;
   font-weight: bold;
-  color: rgb(117, 75, 75);
+  color: rgb(117, 75, 75); /* warna default untuk Mahsan */
 }
 
-.logo-text.nama {
-  color: rgb(25, 139, 46); /* warna untuk Ahsan */
+.logo-text .nama {
+  color: rgb(25, 139, 46); /* warna hijau untuk Portfolio */
 }
 
